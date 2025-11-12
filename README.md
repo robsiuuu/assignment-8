@@ -10,20 +10,19 @@ A modern, interactive implementation of the classic Rock, Paper, Scissors game b
 - **Real-time Results**: Instant win/lose/tie determination
 - **Score Tracking**: Keep track of wins, losses, and ties across rounds
 - **Smooth Animations**: 3-second shuffle animation before computer reveals choice
-- **Responsive Design**: Works perfectly on desktop and mobile devices
-- **Accessibility**: Keyboard-friendly controls and proper ARIA labels
 
 ## 🛠️ Technologies Used
 
-- **React 18** - Modern React with hooks
+- **React** - Modern React with hooks
 - **Vite** - Fast build tool and development server
-- **CSS3** - Custom styling with animations and transitions
-- **HTML5** - Semantic markup for accessibility
+- **CSS** - Custom styling with animations and transitions
+- **HTML** - Semantic markup for accessibility
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites
 - Node.js (version 14 or higher)
+- React with vite project
 - npm or yarn package manager
 
 ### Steps to Run
@@ -83,11 +82,9 @@ A modern, interactive implementation of the classic Rock, Paper, Scissors game b
 This project demonstrates:
 - React functional components with hooks
 - State management with useState and useEffect
-- Component composition and prop drilling
+- Component composition
 - Event handling in React
 - CSS animations and transitions
-- Responsive design principles
-- Accessibility best practices
 
 The game logic handles all 9 possible throw combinations and provides immediate visual feedback. The computer choice animation creates anticipation before revealing the result.
 
